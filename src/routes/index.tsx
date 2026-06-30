@@ -776,32 +776,11 @@ function Index() {
             <div className="tier reveal">
               <p className="tier-num">Tier 1</p>
               <p className="tier-name">AI Essentials</p>
-              <p className="tier-price">$1,500 setup &nbsp; · &nbsp; $1,000/mo</p>
-              <div className="tier-divider" />
-              <div className="tier-item"><span className="tier-check">✦</span>AI-optimized business profile</div>
-              <div className="tier-item"><span className="tier-check">✦</span>Schema markup for Google's AI</div>
-              <div className="tier-item"><span className="tier-check">✦</span>Smart FAQ setup</div>
-              <div className="tier-item"><span className="tier-check">✦</span>Monthly visibility report</div>
-              <div className="tier-item"><span className="tier-check">✦</span>Email support</div>
-            </div>
-
-            <div className="tier tier-featured reveal">
-              <div><span className="tier-badge">Most loved</span></div>
-              <p className="tier-num tier-num-feat">Tier 2</p>
-              <p className="tier-name tier-name-feat">AI Agent Ready</p>
-              <p className="tier-price tier-price-feat">$3,000 setup &nbsp; · &nbsp; $2,500/mo</p>
-              <div className="tier-divider tier-divider-feat" />
-              <div className="tier-item tier-item-feat"><span className="tier-check tier-check-feat">✦</span>Everything in Tier 1</div>
-              <div className="tier-item tier-item-feat"><span className="tier-check tier-check-feat">✦</span>AI booking integration</div>
-              <div className="tier-item tier-item-feat"><span className="tier-check tier-check-feat">✦</span>24/7 automated responses</div>
-              <div className="tier-item tier-item-feat"><span className="tier-check tier-check-feat">✦</span>Agent-readable endpoints</div>
-              <div className="tier-item tier-item-feat"><span className="tier-check tier-check-feat">✦</span>Priority support</div>
-            </div>
-
-            <div className="tier reveal">
-              <p className="tier-num">Tier 3</p>
-              <p className="tier-name">Market Dominance</p>
-              <p className="tier-price">$5,000 setup &nbsp; · &nbsp; $4,000/mo</p>
+              <p className="tier-price">$496&nbsp; setup &nbsp; · &nbsp; $296/mo</p>
+...
+              <p className="tier-price tier-price-feat">$996 setup &nbsp; · &nbsp; $596/mo</p>
+...
+              <p className="tier-price">$1,996 setup &nbsp; · &nbsp; $1,196/mo</p>
               <div className="tier-divider" />
               <div className="tier-item"><span className="tier-check">✦</span>Everything in Tier 2</div>
               <div className="tier-item"><span className="tier-check">✦</span>Competitor gap analysis</div>
