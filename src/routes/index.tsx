@@ -821,11 +821,11 @@ function Index() {
             <h2 className="about-name reveal">Kayla Hewlett</h2>
             <p className="about-role reveal">Founder, Gad Gad &nbsp;·&nbsp; The Elle Woods of AI</p>
             <p className="about-bio reveal">
-              I care deeply about community, about helping people who need a hand, and about
-              building the kind of relationships that turn into bridges — the ones everybody can
-              cross and keep building on. I started Gad Gad because the tools meant to protect
-              local businesses are quietly being aimed at them. That stops here, in heels,
-              with a smile.
+              What I care about is simple: people. Building bridges everybody can cross.
+              Helping the ones who need a hand. And doing it all while being completely,
+              unapologetically me — because a big smile and a bigger brain are not mutually
+              exclusive. The AI tools built to protect small businesses got turned around and
+              pointed right at them. I looked at that and said, absolutely not. Then I built Gad Gad.
             </p>
             <div className="badges reveal">
               <span className="badge">AI/ML Engineer</span>
