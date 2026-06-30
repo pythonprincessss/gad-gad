@@ -8,7 +8,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Hot-pink, Norfolk-grown AI agency. We put the same AI the big guys use back in the hands of the local businesses that built this city. Free AI Visibility Audit.",
+          "Hot pink, Norfolk grown AI agency. We put the same AI the big guys use back in the hands of the local businesses that built this city. Free AI Visibility Audit.",
       },
       { property: "og:title", content: "Gad Gad — AI for local businesses" },
       {
@@ -750,7 +750,7 @@ function Index() {
               <div className="card-icon">📊</div>
               <p className="card-title">Clear reporting</p>
               <p className="card-body">
-                No jargon. No black boxes. Just plain-English monthly reports that tell you exactly
+                No jargon. No black boxes. Just plain English monthly reports that tell you exactly
                 what's working — and what we changed to make it work better.
               </p>
             </div>
@@ -768,7 +768,7 @@ function Index() {
           <p className="eyebrow eyebrow-white reveal">Packages</p>
           <h2 className="section-h2 section-h2-white reveal">Pick your level of protection.</h2>
           <p className="section-lead section-lead-white reveal">
-            Every package starts with a free AI Visibility Audit. No long-term contracts.
+            Every package starts with a free AI Visibility Audit. No long term contracts.
             Cancel any time — though we don't think you'll want to.
           </p>
           <div className="tiers">
@@ -786,7 +786,7 @@ function Index() {
               <div className="tier-item"><span className="tier-check">✦</span>Competitor gap analysis</div>
               <div className="tier-item"><span className="tier-check">✦</span>Custom AI agent build</div>
               <div className="tier-item"><span className="tier-check">✦</span>Dedicated strategy sessions</div>
-              <div className="tier-item"><span className="tier-check">✦</span>White-glove onboarding</div>
+              <div className="tier-item"><span className="tier-check">✦</span>White glove onboarding</div>
             </div>
 
           </div>
