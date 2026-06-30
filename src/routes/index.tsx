@@ -8,7 +8,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Hot pink, Norfolk grown AI agency. We put the same AI the big guys use back in the hands of the local businesses that built this city. Free AI Visibility Audit.",
+          "Hot-pink, Norfolk-grown AI agency. We put the same AI the big guys use back in the hands of the local businesses that built this city. Free AI Visibility Audit.",
       },
       { property: "og:title", content: "Gad Gad — AI for local businesses" },
       {
@@ -750,7 +750,7 @@ function Index() {
               <div className="card-icon">📊</div>
               <p className="card-title">Clear reporting</p>
               <p className="card-body">
-                No jargon. No black boxes. Just plain English monthly reports that tell you exactly
+                No jargon. No black boxes. Just plain-English monthly reports that tell you exactly
                 what's working — and what we changed to make it work better.
               </p>
             </div>
@@ -768,7 +768,7 @@ function Index() {
           <p className="eyebrow eyebrow-white reveal">Packages</p>
           <h2 className="section-h2 section-h2-white reveal">Pick your level of protection.</h2>
           <p className="section-lead section-lead-white reveal">
-            Every package starts with a free AI Visibility Audit. No long term contracts.
+            Every package starts with a free AI Visibility Audit. No long-term contracts.
             Cancel any time — though we don't think you'll want to.
           </p>
           <div className="tiers">
@@ -776,17 +776,38 @@ function Index() {
             <div className="tier reveal">
               <p className="tier-num">Tier 1</p>
               <p className="tier-name">AI Essentials</p>
-              <p className="tier-price">$496&nbsp; setup &nbsp; · &nbsp; $296/mo</p>
-...
-              <p className="tier-price tier-price-feat">$996 setup &nbsp; · &nbsp; $596/mo</p>
-...
-              <p className="tier-price">$1,996 setup &nbsp; · &nbsp; $1,196/mo</p>
+              <p className="tier-price">$1,500 setup &nbsp; · &nbsp; $1,000/mo</p>
+              <div className="tier-divider" />
+              <div className="tier-item"><span className="tier-check">✦</span>AI-optimized business profile</div>
+              <div className="tier-item"><span className="tier-check">✦</span>Schema markup for Google's AI</div>
+              <div className="tier-item"><span className="tier-check">✦</span>Smart FAQ setup</div>
+              <div className="tier-item"><span className="tier-check">✦</span>Monthly visibility report</div>
+              <div className="tier-item"><span className="tier-check">✦</span>Email support</div>
+            </div>
+
+            <div className="tier tier-featured reveal">
+              <div><span className="tier-badge">Most loved</span></div>
+              <p className="tier-num tier-num-feat">Tier 2</p>
+              <p className="tier-name tier-name-feat">AI Agent Ready</p>
+              <p className="tier-price tier-price-feat">$3,000 setup &nbsp; · &nbsp; $2,500/mo</p>
+              <div className="tier-divider tier-divider-feat" />
+              <div className="tier-item tier-item-feat"><span className="tier-check tier-check-feat">✦</span>Everything in Tier 1</div>
+              <div className="tier-item tier-item-feat"><span className="tier-check tier-check-feat">✦</span>AI booking integration</div>
+              <div className="tier-item tier-item-feat"><span className="tier-check tier-check-feat">✦</span>24/7 automated responses</div>
+              <div className="tier-item tier-item-feat"><span className="tier-check tier-check-feat">✦</span>Agent-readable endpoints</div>
+              <div className="tier-item tier-item-feat"><span className="tier-check tier-check-feat">✦</span>Priority support</div>
+            </div>
+
+            <div className="tier reveal">
+              <p className="tier-num">Tier 3</p>
+              <p className="tier-name">Market Dominance</p>
+              <p className="tier-price">$5,000 setup &nbsp; · &nbsp; $4,000/mo</p>
               <div className="tier-divider" />
               <div className="tier-item"><span className="tier-check">✦</span>Everything in Tier 2</div>
               <div className="tier-item"><span className="tier-check">✦</span>Competitor gap analysis</div>
               <div className="tier-item"><span className="tier-check">✦</span>Custom AI agent build</div>
               <div className="tier-item"><span className="tier-check">✦</span>Dedicated strategy sessions</div>
-              <div className="tier-item"><span className="tier-check">✦</span>White glove onboarding</div>
+              <div className="tier-item"><span className="tier-check">✦</span>White-glove onboarding</div>
             </div>
 
           </div>
@@ -821,11 +842,11 @@ function Index() {
             <h2 className="about-name reveal">Kayla Hewlett</h2>
             <p className="about-role reveal">Founder, Gad Gad &nbsp;·&nbsp; The Elle Woods of AI</p>
             <p className="about-bio reveal">
-              What I care about is simple: people. Building bridges everybody can cross.
-              Helping the ones who need a hand. And doing it all while being completely,
-              unapologetically me — because a big smile and a bigger brain are not mutually
-              exclusive. The AI tools built to protect small businesses got turned around and
-              pointed right at them. I looked at that and said, absolutely not. Then I built Gad Gad.
+              I care deeply about community, about helping people who need a hand, and about
+              building the kind of relationships that turn into bridges — the ones everybody can
+              cross and keep building on. I started Gad Gad because the tools meant to protect
+              local businesses are quietly being aimed at them. That stops here, in heels,
+              with a smile.
             </p>
             <div className="badges reveal">
               <span className="badge">AI/ML Engineer</span>
