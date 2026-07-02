@@ -85,8 +85,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary" },
       { name: "twitter:title", content: "Gad Gad — AI for the businesses that make this city worth living in" },
       { name: "twitter:description", content: "Norfolk-based AI agency putting enterprise-grade tools back in the hands of local businesses. Free AI Visibility Audit." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6d7ce9d3-2fe4-4dfc-a37d-55a3744aaa0c/id-preview-a0534f32--e290943e-0dba-4c91-b4cb-a126cef1279c.lovable.app-1782860602636.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6d7ce9d3-2fe4-4dfc-a37d-55a3744aaa0c/id-preview-a0534f32--e290943e-0dba-4c91-b4cb-a126cef1279c.lovable.app-1782860602636.png" },
+      { property: "og:image", content: "https://gadgad.studio/og-image.png" },
+      { name: "twitter:image", content: "https://gadgad.studio/og-image.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
