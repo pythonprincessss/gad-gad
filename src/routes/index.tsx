@@ -874,7 +874,7 @@ function Index() {
             Get your free AI Visibility Audit. No pressure, no pitch — just an honest, sparkly look
             at where your business stands right now.
           </p>
-          <a href="mailto:hello@gadgad.ai" className="contact-btn reveal">
+          <a href="mailto:kayhew@gadgad.studio" className="contact-btn reveal">
             <span className="sparkle">✦</span> Email us for your free audit
           </a>
           <p className="contact-note reveal">We respond within 24 hours. Norfolk businesses always get priority.</p>
