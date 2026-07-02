@@ -271,11 +271,11 @@ body.gadgad-body {
 .hero-tagline {
   font-size: clamp(16px, 2.1vw, 22px);
   font-style: italic;
-  color: #fff;
+  color: var(--pink);
   margin-top: 2rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.3px;
-  text-shadow: 0 2px 12px rgba(160,0,94,0.25), 0 1px 2px rgba(0,0,0,0.1);
+  text-shadow: 0 2px 14px rgba(255,255,255,0.7), 0 1px 2px rgba(0,0,0,0.08);
   position: relative;
   z-index: 10;
 }
@@ -283,12 +283,12 @@ body.gadgad-body {
 .hero-sub {
   max-width: 520px;
   font-size: clamp(14px, 1.6vw, 16.5px);
-  color: rgba(255,255,255,0.96);
+  color: var(--pink);
   line-height: 1.76;
   margin-top: 0.9rem;
   position: relative;
   z-index: 10;
-  text-shadow: 0 1px 8px rgba(0,0,0,0.12);
+  text-shadow: 0 1px 10px rgba(255,255,255,0.6);
 }
 
 .hero-cta {
