@@ -490,9 +490,8 @@ body.gadgad-body {
   position: absolute;
   top: 0; left: 0;
   color: transparent;
-  -webkit-text-stroke: 16px #fff;
+  -webkit-text-stroke: 10px #fff;
   z-index: 0;
-  filter: drop-shadow(0 18px 36px rgba(160,0,94,0.22));
 }
 .about-k {
   font-family: 'Pacifico', cursive;
@@ -501,13 +500,10 @@ body.gadgad-body {
   color: var(--pink);
   position: relative;
   z-index: 1;
-  text-shadow:
-    3px  3px  0 var(--pink-soft),
-    6px  6px  0 var(--pink-mid),
-    9px  9px  0 var(--pink-deep),
-    12px 12px 0 var(--pink-deeper);
+  filter: drop-shadow(0 14px 22px rgba(160,0,94,0.28));
   display: block;
 }
+
 .k-sp {
   position: absolute;
   font-size: 20px;
