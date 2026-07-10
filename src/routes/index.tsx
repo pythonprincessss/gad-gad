@@ -878,8 +878,14 @@ function Index() {
       </section>
 
       <footer className="gg-footer">
-        © 2026 <strong>Gad Gad</strong> &nbsp;·&nbsp; Made in Norfolk, VA <span className="heart">♥</span> &nbsp;·&nbsp; AI for the businesses that make this city worth living in.
+        <div>© 2026 <strong>Gad Gad</strong> &nbsp;·&nbsp; Made in Norfolk, VA <span className="heart">♥</span> &nbsp;·&nbsp; AI for the businesses that make this city worth living in.</div>
+        <div className="gg-footer-links">
+          <Link to="/privacy">Privacy Policy</Link>
+          <span aria-hidden="true">·</span>
+          <Link to="/terms">Terms of Service</Link>
+        </div>
       </footer>
+
     </>
   );
 }
