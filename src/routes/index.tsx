@@ -594,6 +594,10 @@ body.gadgad-body {
 }
 .gg-footer strong { color: #fff; font-weight: 600; }
 .gg-footer .heart { display: inline-block; animation: heartBeat 1.6s ease-in-out infinite; color: #fff; }
+.gg-footer-links { margin-top: 0.6rem; display: flex; gap: 0.6rem; justify-content: center; align-items: center; font-size: 13px; }
+.gg-footer-links a { color: #fff; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.5); padding-bottom: 1px; transition: border-color 0.2s ease; }
+.gg-footer-links a:hover { border-bottom-color: #fff; }
+
 @keyframes heartBeat {
   0%,100% { transform: scale(1); }
   25% { transform: scale(1.18); }
