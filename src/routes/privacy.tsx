@@ -17,7 +17,7 @@ function PrivacyPage() {
   return (
     <LegalPage title="Privacy Policy" eyebrow="The fine print, in plain English">
       <p>
-        Gad Gad collects only what's needed to respond to inquiries and provide services —
+        Gad Gad collects only what's needed to respond to inquiries and provide services:
         name, email, and business info submitted via the audit form or email.
       </p>
       <p>
@@ -25,7 +25,7 @@ function PrivacyPage() {
         solely to deliver Gad Gad's marketing and AI automation services.
       </p>
       <p>
-        Contact <a href="mailto:hello@gadgad.studio">hello@gadgad.studio</a> with any
+        Contact <a href="mailto:kayhew@gadgad.studio">kayhew@gadgad.studio</a> with any
         privacy questions or data deletion requests.
       </p>
     </LegalPage>
