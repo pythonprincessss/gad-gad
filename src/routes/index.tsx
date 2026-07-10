@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect } from "react";
 
 export const Route = createFileRoute("/")({
@@ -490,9 +490,8 @@ body.gadgad-body {
   position: absolute;
   top: 0; left: 0;
   color: transparent;
-  -webkit-text-stroke: 16px #fff;
+  -webkit-text-stroke: 10px #fff;
   z-index: 0;
-  filter: drop-shadow(0 18px 36px rgba(160,0,94,0.22));
 }
 .about-k {
   font-family: 'Pacifico', cursive;
@@ -501,13 +500,10 @@ body.gadgad-body {
   color: var(--pink);
   position: relative;
   z-index: 1;
-  text-shadow:
-    3px  3px  0 var(--pink-soft),
-    6px  6px  0 var(--pink-mid),
-    9px  9px  0 var(--pink-deep),
-    12px 12px 0 var(--pink-deeper);
+  filter: drop-shadow(0 14px 22px rgba(160,0,94,0.28));
   display: block;
 }
+
 .k-sp {
   position: absolute;
   font-size: 20px;
@@ -598,6 +594,10 @@ body.gadgad-body {
 }
 .gg-footer strong { color: #fff; font-weight: 600; }
 .gg-footer .heart { display: inline-block; animation: heartBeat 1.6s ease-in-out infinite; color: #fff; }
+.gg-footer-links { margin-top: 0.6rem; display: flex; gap: 0.6rem; justify-content: center; align-items: center; font-size: 13px; }
+.gg-footer-links a { color: #fff; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.5); padding-bottom: 1px; transition: border-color 0.2s ease; }
+.gg-footer-links a:hover { border-bottom-color: #fff; }
+
 @keyframes heartBeat {
   0%,100% { transform: scale(1); }
   25% { transform: scale(1.18); }
@@ -882,8 +882,14 @@ function Index() {
       </section>
 
       <footer className="gg-footer">
-        © 2026 <strong>Gad Gad</strong> &nbsp;·&nbsp; Made in Norfolk, VA <span className="heart">♥</span> &nbsp;·&nbsp; AI for the businesses that make this city worth living in.
+        <div>© 2026 <strong>Gad Gad</strong> &nbsp;·&nbsp; Made in Norfolk, VA <span className="heart">♥</span> &nbsp;·&nbsp; AI for the businesses that make this city worth living in.</div>
+        <div className="gg-footer-links">
+          <Link to="/privacy">Privacy Policy</Link>
+          <span aria-hidden="true">·</span>
+          <Link to="/terms">Terms of Service</Link>
+        </div>
       </footer>
+
     </>
   );
 }
